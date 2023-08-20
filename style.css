@@ -1,0 +1,128 @@
+
+#container{
+
+    background-color: rgb(35, 35, 105);
+    padding:10px;
+    width:100%;
+    min-height: 100vh;
+    
+
+}
+.list{
+    width:100%;
+    max-width: 400px;
+    background-color: antiquewhite;
+    padding:40px 30px 70px;
+    margin:100px auto 20px;
+    border-radius: 10px;
+}
+.list h2{
+    display:flex;
+    align-items: center;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: rgb(220, 206, 188);
+}
+#inputbox{
+    flex: 1;
+    border-radius:10px ;
+    border:none;
+    background-color:rgb(220, 206, 188) ;
+    padding:10px;
+    outline: none;
+    font-size: 20px;
+}
+button{
+    border:none;
+    outline: none;
+    border-radius:30px;
+    background-color:rgb(223, 75, 21);
+    font-size: 20px;
+    cursor: pointer;
+
+   
+    
+    padding: 16px 50px;
+   
+
+}
+button:hover{
+    background-color: chocolate;
+}
+
+
+ul li{
+    
+    list-style: none;
+    font-size: 20px;
+   padding:12px 8px 8px 12px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+    display: flex;
+    
+
+  
+    
+}
+li:hover{
+    background-color:rgb(236, 194, 163);
+}
+ul li span{
+    
+  
+   width:20px;
+   height:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  border:1px solid chocolate;
+    font-size: 40px;
+    color:black;
+    border-radius: 10px;
+   
+  
+    
+}
+#lastbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:400px;
+    margin-left: 400px;
+
+}
+#save{
+    width:50px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 239, 101);
+    
+    
+}
+#save:hover{
+    background-color: rgb(106, 179, 33);
+}
+#remove{
+    width:80px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(238, 101, 101);
+   
+    
+}
+#remove:hover{
+    background-color: rgb(235, 16, 16)
+}
